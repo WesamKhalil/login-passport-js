@@ -1,0 +1,16 @@
+<%- include('_head.ejs') -%>
+        <section>
+            <form action="register" method="POST">
+                <h2>Register</h2>
+                <p>Please don't use any of your real passwords, I don't want them in my database.</p>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" name="email" required>
+                <div id="email-error"></div>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" name="password" required>
+                <div id="password-error"></div>
+                <button>Register</button>
+            </form>
+        </section>
+    </body>
+</html>

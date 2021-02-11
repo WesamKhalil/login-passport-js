@@ -1,0 +1,15 @@
+<%- include('_head.ejs') -%>
+        <section>
+            <form action="/login" method="POST">
+                <h2>Login</h2>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" name="email" required>
+                <div id="email-error"></div>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" name="password" required>
+                <div id="password-error"></div>
+                <button>Login</button>
+            </form>
+        </section>
+    </body>
+</html>
